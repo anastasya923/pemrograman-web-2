@@ -37,8 +37,8 @@ try {
     $mail->isSMTP();
     $mail->Host       = 'smtp.gmail.com';
     $mail->SMTPAuth   = true;
-    $mail->Username   = 'sayatasia854@gmail.com';
-    $mail->Password   = 'ennx xoxl iryk fvme'; // app password
+    $mail->Username   = '';
+    $mail->Password   = ''; // app password
     $mail->SMTPSecure = 'tls';
     $mail->Port       = 587;
 
@@ -66,3 +66,4 @@ try {
 } catch (Exception $e) {
     echo "Email gagal dikirim: {$mail->ErrorInfo}";
 }
+
